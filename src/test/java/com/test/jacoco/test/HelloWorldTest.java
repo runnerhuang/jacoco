@@ -24,11 +24,11 @@ public class HelloWorldTest {
         TestCase.assertEquals(ss, 2);
     }
 
-//    @Test
-//    public void testMethod3(){
-//        HelloWorld hw = new HelloWorld();
-//        int cc = hw.addMethod(3,2);
-//        TestCase.assertEquals(cc, 5);
+    @Test
+    public void testMethod3(){
+        HelloWorld hw = new HelloWorld();
+        int cc = hw.addMethod(3,2);
+        TestCase.assertEquals(cc, 4);
 
-//    }
+    }
 }
